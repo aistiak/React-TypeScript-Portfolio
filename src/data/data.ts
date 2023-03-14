@@ -24,48 +24,48 @@ import nginx from "assets/images/skills/nginx.png";
 
 export const companies = [
   {
-    title: "Phaedra Solutions",
+    title: "Markopolo.ai",
     alt: "PS image",
-    role: "Senior Software Engineer",
-    skills: ["ruby", "rails", "typescript", "javascript", "react", "aws"],
-    period: "2019 - Present",
+    role: "Software Engineer",
+    skills: ["node.js", "aws", "redis", "rabbitmq", "apache-kafka", "mongodb","express.js","react.js","next.js"],
+    period: "March,2021 - Present",
     logo: PhaedraLogo
   },
   {
-    title: "Brainx Technologies",
+    title: "OrangeBD",
     alt: "BT image",
     role: "Software Engineer",
-    skills: ["ruby", "rails", "javascript", "python"],
-    period: "2018 - 2019",
+    skills: ["node.js", "react.js", "laravel", "mysql"],
+    period: "January,2020 - February,2021",
     logo: BrainxLogo
   },
-  {
-    title: "Codenya Studio",
-    alt: "CS image",
-    role: "Co-founder, CTO",
-    skills: ["ruby", "rails", "python", "typescript", "react", "aws"],
-    period: "2018 - Present",
-    logo: CodenyaLogo
-  },
-  {
-    title: "Brainplow",
-    alt: "Brainplow image",
-    role: "Software Engineer",
-    skills: ["javascript", "python", "angular"],
-    period: "2017 - 2018",
-    logo: BrainplowLogo
-  }
+  // {
+  //   title: "Codenya Studio",
+  //   alt: "CS image",
+  //   role: "Co-founder, CTO",
+  //   skills: ["ruby", "rails", "python", "typescript", "react", "aws"],
+  //   period: "2018 - Present",
+  //   logo: CodenyaLogo
+  // },
+  // {
+  //   title: "Brainplow",
+  //   alt: "Brainplow image",
+  //   role: "Software Engineer",
+  //   skills: ["javascript", "python", "angular"],
+  //   period: "2017 - 2018",
+  //   logo: BrainplowLogo
+  // }
 ];
 
 export const institutes = [
   {
     short_title: "FAST - NUCES",
-    title: "National University of Computer and Emerging Sciences",
+    title: "Mawlana Bhashani Science and Technology University (MBSTU)",
     alt: "Nuces image",
-    role: "Bachelor's Degree in Computer Science",
+    role: "Bachelor's Degree in Information & Communication Technology",
     skills: ["project management", "web development", "data structures"],
-    period: "2013 - 2017",
-    startingYear: "2013",
+    period: "2015 - 2019",
+    startingYear: "2015",
     logo: UniLogo,
     awards: [
       {
@@ -88,26 +88,26 @@ export const institutes = [
       }
     ]
   },
-  {
-    short_title: "Govt Degree College",
-    title: "Govt Degree College",
-    alt: "college image",
-    role: "FSC",
-    skills: ["mathematic", "chemistry", "physics"],
-    period: "2011 - 2013",
-    startingYear: "2011",
-    logo: ""
-  }
+  // {
+  //   short_title: "Govt Degree College",
+  //   title: "Govt Degree College",
+  //   alt: "college image",
+  //   role: "FSC",
+  //   skills: ["mathematic", "chemistry", "physics"],
+  //   period: "2011 - 2013",
+  //   startingYear: "2011",
+  //   logo: ""
+  // }
 ];
 
 export const skills = [
-  {
-    name: "Ruby on Rails",
-    description: "Web development",
-    link: "https://rubyonrails.org/",
-    type: "development",
-    image: rails
-  },
+  // {
+  //   name: "Ruby on Rails",
+  //   description: "Web development",
+  //   link: "https://rubyonrails.org/",
+  //   type: "development",
+  //   image: rails
+  // },
   {
     name: "React",
     description: "Web development",
@@ -115,13 +115,13 @@ export const skills = [
     type: "development",
     image: react
   },
-  {
-    name: "Ruby",
-    description: "Web development, scrapping",
-    link: "https://www.ruby-lang.org/en/",
-    type: "development",
-    image: ruby
-  },
+  // {
+  //   name: "Ruby",
+  //   description: "Web development, scrapping",
+  //   link: "https://www.ruby-lang.org/en/",
+  //   type: "development",
+  //   image: ruby
+  // },
   {
     name: "Python",
     description: "Web development, scrapping",
@@ -165,7 +165,7 @@ export const skills = [
     image: bootstrap
   },
   {
-    name: "Postgres",
+    name: "MongoDB",
     description: "Database",
     link: "https://www.postgresql.org/",
     type: "database",
@@ -185,13 +185,13 @@ export const skills = [
     type: "database",
     image: redis
   },
-  {
-    name: "Heroku",
-    description: "Devops",
-    link: "https://www.heroku.com/",
-    type: "devops",
-    image: heroku
-  },
+  // {
+  //   name: "Heroku",
+  //   description: "Devops",
+  //   link: "https://www.heroku.com/",
+  //   type: "devops",
+  //   image: heroku
+  // },
   {
     name: "AWS",
     description: "Devops",
@@ -200,7 +200,7 @@ export const skills = [
     image: aws
   },
   {
-    name: "Digital Ocean",
+    name: "Apache",
     description: "Devops",
     link: "https://www.digitalocean.com/",
     type: "devops",
@@ -220,11 +220,11 @@ export const skills = [
     type: "development",
     image: vscode
   },
-  {
-    name: "Figma",
-    description: "Collaborative Design",
-    link: "https://www.figma.com/",
-    type: "design",
-    image: figma
-  }
+  // {
+  //   name: "Figma",
+  //   description: "Collaborative Design",
+  //   link: "https://www.figma.com/",
+  //   type: "design",
+  //   image: figma
+  // }
 ];

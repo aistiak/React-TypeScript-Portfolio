@@ -9,12 +9,12 @@ import {
 import { FiMail } from "react-icons/fi";
 
 const siteConfig = {
-  copyright: `Copyright © ${new Date().getFullYear()} Muhammad Ahmad. All Rights Reserved.`,
+  copyright: `Copyright © ${new Date().getFullYear()} Istiak Arif. All Rights Reserved.`,
   author: {
-    name: "Muhammad Ahmad",
+    name: "Istiak Arif",
     accounts: [
       {
-        url: "https://github.com/MA-Ahmad",
+        url: "https://github.com/aistiak",
         label: "Github Account",
         type: "gray",
         icon: <FaGithub />
@@ -44,7 +44,7 @@ const siteConfig = {
         icon: <FaQuora />
       },
       {
-        url: "mailto:muhammad.ahmad8043@gmail.com",
+        url: "mailto:dev.istiak@gmail.com",
         label: "Mail ahmad",
         type: "gray",
         icon: <FiMail />
