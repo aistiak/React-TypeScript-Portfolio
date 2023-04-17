@@ -22,6 +22,9 @@ import docean from "assets/images/skills/digital-ocean.png";
 import aws from "assets/images/skills/aws.png";
 import nginx from "assets/images/skills/nginx.png";
 import tool from "assets/images/skills/tool.jpg";
+import markopolo from "assets/images/skills/markopolo.png";
+import orangebd from "assets/images/skills/orangebd.jpg";
+import mbstu from "assets/images/skills/mbstu.png";
 
 export const companies = [
   {
@@ -30,7 +33,7 @@ export const companies = [
     role: "Software Engineer",
     skills: ["node.js", "aws", "redis", "rabbitmq", "apache-kafka", "mongodb","express.js","react.js","next.js"],
     period: "March,2021 - Present",
-    logo: PhaedraLogo
+    logo: markopolo
   },
   {
     title: "OrangeBD",
@@ -38,7 +41,7 @@ export const companies = [
     role: "Software Engineer",
     skills: ["node.js", "react.js", "laravel", "mysql"],
     period: "January,2020 - February,2021",
-    logo: BrainxLogo
+    logo: orangebd
   },
   // {
   //   title: "Codenya Studio",
@@ -67,7 +70,7 @@ export const institutes = [
     skills: ["project management", "web development", "data structures"],
     period: "2015 - 2019",
     startingYear: "2015",
-    logo: UniLogo,
+    logo: mbstu,
     awards: [
       {
         title: "Speed Programming Battle",
