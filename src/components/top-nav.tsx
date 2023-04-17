@@ -39,7 +39,7 @@ const mobileLinks = [
   { name: "Open Source", path: "/open-source" },
   { name: "Blog", path: "/blog" },
   { name: "Tech Stack", path: "/tech-stack" },
-  { name: "Developer Story", path: "/story-timeline" }
+  // { name: "Developer Story", path: "/story-timeline" }
   
 ];
 
@@ -163,7 +163,7 @@ export default function TopNav() {
                       </HStack>
                     </MenuItem>
                   </Link>
-                  <Link as={RouterNavLink} to="/story-timeline">
+                  {/* <Link as={RouterNavLink} to="/story-timeline">
                     <MenuItem>
                       <HStack>
                         <Icon
@@ -174,8 +174,8 @@ export default function TopNav() {
                         <Text>Developer Story</Text>
                       </HStack>
                     </MenuItem>
-                  </Link>
-                  <Link as={RouterNavLink} to="/achievements">
+                  </Link> */}
+                  {/* <Link as={RouterNavLink} to="/achievements">
                     <MenuItem>
                       <HStack>
                         <Icon
@@ -186,7 +186,7 @@ export default function TopNav() {
                         <Text>Achievements</Text>
                       </HStack>
                     </MenuItem>
-                  </Link>
+                  </Link> */}
                 </MenuList>
               </Menu>
             </HStack>

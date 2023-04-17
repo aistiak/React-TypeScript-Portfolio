@@ -21,6 +21,7 @@ import heroku from "assets/images/skills/heroku.png";
 import docean from "assets/images/skills/digital-ocean.png";
 import aws from "assets/images/skills/aws.png";
 import nginx from "assets/images/skills/nginx.png";
+import tool from "assets/images/skills/tool.jpg";
 
 export const companies = [
   {
@@ -100,131 +101,254 @@ export const institutes = [
   // }
 ];
 
+// export const skills = [
+//   // {
+//   //   name: "Ruby on Rails",
+//   //   description: "Web development",
+//   //   link: "https://rubyonrails.org/",
+//   //   type: "development",
+//   //   image: rails
+//   // },
+//   {
+//     name: "React",
+//     description: "Web development",
+//     link: "https://reactjs.org/",
+//     type: "development",
+//     image: react
+//   },
+//   // {
+//   //   name: "Ruby",
+//   //   description: "Web development, scrapping",
+//   //   link: "https://www.ruby-lang.org/en/",
+//   //   type: "development",
+//   //   image: ruby
+//   // },
+//   {
+//     name: "Python",
+//     description: "Web development, scrapping",
+//     link: "https://www.python.org/",
+//     type: "development",
+//     image: python
+//   },
+//   {
+//     name: "Javascript",
+//     description: "Web development",
+//     link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+//     type: "development",
+//     image: javascript
+//   },
+//   {
+//     name: "Typescript",
+//     description: "Web development",
+//     link: "https://www.typescriptlang.org/",
+//     type: "development",
+//     image: typescript
+//   },
+//   {
+//     name: "Html5",
+//     description: "Web layouts",
+//     link: "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5",
+//     type: "development",
+//     image: html5
+//   },
+//   {
+//     name: "Css3",
+//     description: "Web design",
+//     link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+//     type: "design",
+//     image: css3
+//   },
+//   {
+//     name: "Bootstrap",
+//     description: "Web design",
+//     link: "https://getbootstrap.com/",
+//     type: "design",
+//     image: bootstrap
+//   },
+//   {
+//     name: "MongoDB",
+//     description: "Database",
+//     link: "https://www.postgresql.org/",
+//     type: "database",
+//     image: postgres
+//   },
+//   {
+//     name: "Mysql",
+//     description: "Database",
+//     link: "https://www.mysql.com/",
+//     type: "database",
+//     image: mysql
+//   },
+//   {
+//     name: "Redis",
+//     description: "Database",
+//     link: "https://redis.io/",
+//     type: "database",
+//     image: redis
+//   },
+//   // {
+//   //   name: "Heroku",
+//   //   description: "Devops",
+//   //   link: "https://www.heroku.com/",
+//   //   type: "devops",
+//   //   image: heroku
+//   // },
+//   {
+//     name: "AWS",
+//     description: "Devops",
+//     link: "https://aws.amazon.com/",
+//     type: "devops",
+//     image: aws
+//   },
+//   {
+//     name: "Apache",
+//     description: "Devops",
+//     link: "https://www.digitalocean.com/",
+//     type: "devops",
+//     image: docean
+//   },
+//   {
+//     name: "Nginx",
+//     description: "Web server",
+//     link: "https://www.nginx.com/",
+//     type: "devops",
+//     image: nginx
+//   },
+//   {
+//     name: "Visual Studio Code",
+//     description: "Code editor of choice",
+//     link: "https://code.visualstudio.com/",
+//     type: "development",
+//     image: vscode
+//   },
+//   // {
+//   //   name: "Figma",
+//   //   description: "Collaborative Design",
+//   //   link: "https://www.figma.com/",
+//   //   type: "design",
+//   //   image: figma
+//   // }
+// ];
+
+
 export const skills = [
-  // {
-  //   name: "Ruby on Rails",
-  //   description: "Web development",
-  //   link: "https://rubyonrails.org/",
-  //   type: "development",
-  //   image: rails
-  // },
+
   {
-    name: "React",
-    description: "Web development",
-    link: "https://reactjs.org/",
-    type: "development",
-    image: react
-  },
-  // {
-  //   name: "Ruby",
-  //   description: "Web development, scrapping",
-  //   link: "https://www.ruby-lang.org/en/",
-  //   type: "development",
-  //   image: ruby
-  // },
-  {
-    name: "Python",
-    description: "Web development, scrapping",
-    link: "https://www.python.org/",
-    type: "development",
-    image: python
+    name : 'Node.js',
+    description : 'Runtime environemnt',
+    link : 'https://nodejs.org',
+    type :"language",
+    image : tool
   },
   {
-    name: "Javascript",
-    description: "Web development",
-    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-    type: "development",
-    image: javascript
+    name : 'JavaScript',
+    description : 'Language',
+    link : 'https://nodejs.org',
+    type :"language",
+    image : javascript 
+
   },
   {
-    name: "Typescript",
-    description: "Web development",
-    link: "https://www.typescriptlang.org/",
-    type: "development",
-    image: typescript
+    name : 'TypeScript',
+    description : 'Language',
+    link : 'https://nodejs.org',
+    type :"language",
+    image : typescript 
+
   },
   {
-    name: "Html5",
-    description: "Web layouts",
-    link: "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5",
-    type: "development",
-    image: html5
+    name : 'Python',
+    description : 'Language',
+    link : 'https://nodejs.org',
+    type :"language",
+    image : python 
+
   },
   {
-    name: "Css3",
-    description: "Web design",
-    link: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-    type: "design",
-    image: css3
+    name : 'Mysql',
+    description : 'Database',
+    link : 'https://nodejs.org',
+    tyoe : 'database',
+    image : mysql 
   },
   {
-    name: "Bootstrap",
-    description: "Web design",
-    link: "https://getbootstrap.com/",
-    type: "design",
-    image: bootstrap
+    name : 'MongoDB',
+    description : 'Database',
+    link : 'https://nodejs.org',
+    image : typescript  
   },
   {
-    name: "MongoDB",
-    description: "Database",
-    link: "https://www.postgresql.org/",
-    type: "database",
-    image: postgres
+    name : 'PostgreSQL',
+    description : 'Database',
+    link : 'https://nodejs.org',
+    image : postgres 
   },
   {
-    name: "Mysql",
-    description: "Database",
-    link: "https://www.mysql.com/",
-    type: "database",
-    image: mysql
+    name : 'React.js',
+    description : 'Frontend',
+    link : 'https://nodejs.org',
+    image : react 
   },
   {
-    name: "Redis",
-    description: "Database",
-    link: "https://redis.io/",
-    type: "database",
-    image: redis
+    name : 'Next.js',
+    description : 'Frontend',
+    link : 'https://nodejs.org',
+    image : react 
   },
-  // {
-  //   name: "Heroku",
-  //   description: "Devops",
-  //   link: "https://www.heroku.com/",
-  //   type: "devops",
-  //   image: heroku
-  // },
+  
   {
-    name: "AWS",
-    description: "Devops",
-    link: "https://aws.amazon.com/",
-    type: "devops",
-    image: aws
+    name : 'Redis',
+    description : 'tools',
+    link : 'https://nodejs.org',
+    image : redis
   },
   {
-    name: "Apache",
-    description: "Devops",
-    link: "https://www.digitalocean.com/",
-    type: "devops",
-    image: docean
+    name : 'Apache Kafka',
+    description : 'tools',
+    link : 'https://nodejs.org',
+    image : tool  // todo 
   },
   {
-    name: "Nginx",
-    description: "Web server",
-    link: "https://www.nginx.com/",
-    type: "devops",
-    image: nginx
+    name : 'Apache Zookeeper',
+    description : 'tools',
+    link : 'https://nodejs.org',
+    image : tool // todo
   },
   {
-    name: "Visual Studio Code",
-    description: "Code editor of choice",
-    link: "https://code.visualstudio.com/",
-    type: "development",
-    image: vscode
+    name : 'Docker',
+    description : 'tools',
+    link : 'https://nodejs.org',
+    image : tool  // todo 
   },
-  // {
-  //   name: "Figma",
-  //   description: "Collaborative Design",
-  //   link: "https://www.figma.com/",
-  //   type: "design",
-  //   image: figma
-  // }
-];
+  {
+    name : 'AWS',
+    description : 'cloud',
+    link : 'https://nodejs.org',
+    image : tool // todo  
+  },
+  {
+    name : 'Terraform',
+    description : 'IAC',
+    link : 'https://nodejs.org',
+    image : tool // todo 
+  },
+  {
+    name : 'Linux',
+    description : 'OS',
+    link : 'https://nodejs.org',
+    image : tool // todo 
+  },
+  {
+    name : 'Nginx',
+    description : 'Server',
+    link : 'https://nodejs.org',
+    image : nginx 
+  },
+  {
+    name : 'Apache',
+    description : 'Server',
+    link : 'https://nodejs.org',
+    image : tool 
+  },
+
+]

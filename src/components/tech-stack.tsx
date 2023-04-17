@@ -80,7 +80,7 @@ const TechStack = () => {
                   <Text>All</Text>
                 </HStack>
               </Tab>
-              <Tab
+              {/* <Tab
                 bg={useColorModeValue("gray.100", "gray.800")}
                 color={useColorModeValue("gray.500", "gray.500")}
                 _selected={{
@@ -95,8 +95,8 @@ const TechStack = () => {
                   <Icon as={BiDesktop} weight="fill" />
                   <Text>Web Development</Text>
                 </HStack>
-              </Tab>
-              <Tab
+              </Tab> */}
+              {/* <Tab
                 bg={useColorModeValue("gray.100", "gray.800")}
                 color={useColorModeValue("gray.600", "gray.500")}
                 _selected={{
@@ -111,8 +111,8 @@ const TechStack = () => {
                   <Icon as={GiSpiderWeb} weight="fill" />
                   <Text>Web Design</Text>
                 </HStack>
-              </Tab>
-              <Tab
+              </Tab> */}
+              {/* <Tab
                 bg={useColorModeValue("gray.100", "gray.800")}
                 color={useColorModeValue("gray.600", "gray.500")}
                 _selected={{
@@ -127,7 +127,7 @@ const TechStack = () => {
                   <Icon as={AiOutlineCloudServer} weight="fill" />
                   <Text>Devops</Text>
                 </HStack>
-              </Tab>
+              </Tab> */}
             </TabList>
             <TabPanels minHeight={"45vh"}>
               <TabPanel px={0}>

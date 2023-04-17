@@ -20,29 +20,29 @@ const siteConfig = {
         icon: <FaGithub />
       },
       {
-        url: "https://twitter.com/muhammad_ahmaad",
+        url: "https://twitter.com/@AR_Istiak",
         label: "Twitter Account",
         type: "twitter",
         icon: <FaTwitter />
       },
       {
-        url: "https://dev.to/m_ahmad",
+        url: "https://dev.to/istiak",
         label: "Dev Account",
         type: "gray",
         icon: <FaDev />
       },
       {
-        url: "https://linkedin.com/in/muhammad-ahmad20",
+        url: "https://linkedin.com/in/Ariful-Islam-Istiak",
         label: "LinkedIn Account",
         type: "linkedin",
         icon: <FaLinkedin />
       },
-      {
-        url: "https://www.quora.com/profile/Muhammad-Ahmad-66",
-        label: "Quora Account",
-        type: "red",
-        icon: <FaQuora />
-      },
+      // {
+      //   url: "https://www.quora.com/profile/Muhammad-Ahmad-66",
+      //   label: "Quora Account",
+      //   type: "red",
+      //   icon: <FaQuora />
+      // },
       {
         url: "mailto:dev.istiak@gmail.com",
         label: "Mail ahmad",

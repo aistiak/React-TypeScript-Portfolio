@@ -18,6 +18,7 @@ import Projects from "./projects";
 import { projectsList } from "data/projects-list";
 import "style/style.css";
 import UserIcon from "assets/images/user_icon.png";
+import TechStack from "./tech-stack";
 
 const ANIMATION_DURATION = 0.5;
 const ORANGE = "#ff9400";
@@ -129,31 +130,31 @@ const Home = () => {
             </Text>
             <UnorderedList textAlign="left" paddingLeft={5} m={0}>
             <ListItem>
-                <Link as={NavLink} to="/open-source">
-                  Live/Local Github Repos
-                  <Badge ml="1" colorScheme="green">
-                    New
-                  </Badge>
-                </Link>
-              </ListItem>
-              <ListItem>
-                <Link as={NavLink} to="/story-timeline">
-                  Story page
-                </Link>
-              </ListItem>
-              <ListItem>
                 <Link as={NavLink} to="/tech-stack">
-                  Tech Stack
+                   Tech Stack
+                  {/* <Badge ml="1" colorScheme="green">
+                    New
+                  </Badge> */}
                 </Link>
               </ListItem>
               <ListItem>
-                <Link as={NavLink} to="/achievements">
-                  Achievements
+                <Link as={NavLink} to="/about">
+                  Experience 
+                </Link>
+              </ListItem>
+              <ListItem>
+                <Link as={NavLink} to="/open-source">
+                  Open Source
+                </Link>
+              </ListItem>
+              <ListItem>
+                <Link as={NavLink} to="/blog">
+                  Blogs
                 </Link>
               </ListItem>
             </UnorderedList>
           </Stack>
-          <Projects projects={projectsList} />
+    
         </Box>
       </MotionBox>
     </Flex>
