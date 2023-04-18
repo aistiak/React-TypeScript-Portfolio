@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://ma-ahmad.github.io/portfolio",
+  "homepage": "https://arif-istiak.xyz/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,7 @@
     "framer-motion": "3.10.6",
     "gh-pages": "^3.1.0",
     "react": "^17.0.2",
-    "react-blurhash": "^0.1.3",
+    "react-blurhash": "^0.1.3", 
     "react-dom": "^17.0.2",
     "react-icons": "^3.0.0",
     "react-palette": "^1.0.2",
