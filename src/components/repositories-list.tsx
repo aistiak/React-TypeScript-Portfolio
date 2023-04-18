@@ -46,7 +46,7 @@ const RepositoriesList = () => {
           <Header underlineColor={TURQUOISE} mt={0} mb={0}>
             Open Source
           </Header>
-          <HStack>
+          {/* <HStack>
           <Tooltip hasArrow label="Live github repos" placement="top">
             <IconButton
               aria-label={"live"}
@@ -69,7 +69,7 @@ const RepositoriesList = () => {
               {...iconProps}
             />
             </Tooltip>
-          </HStack>
+          </HStack> */}
         </HStack>
         <Text
           color={useColorModeValue("gray.500", "gray.200")}
@@ -79,7 +79,8 @@ const RepositoriesList = () => {
           or contributed to.
         </Text>
       </VStack>
-      {activeTab === "live" ? <LiveData /> : <OfflineData />}
+      {/* {activeTab === "live" ? <LiveData /> : <OfflineData />} */}
+      <OfflineData/>
     </PageSlideFade>
   );
 };

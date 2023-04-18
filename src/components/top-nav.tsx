@@ -194,7 +194,7 @@ export default function TopNav() {
           <Flex alignItems={"center"}>
             <IconButton
               as={Link}
-              href={"https://github.com/MA-Ahmad"}
+              href={"https://github.com/aistiak"}
               size={"md"}
               icon={<FaGithub />}
               aria-label={"Github account"}
