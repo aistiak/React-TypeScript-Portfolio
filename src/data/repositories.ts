@@ -9,6 +9,7 @@ import imgGallery from "../assets/images/repositories/image_gallery.png";
 import notebook from "../assets/images/repositories/notebook_app.png";
 import devto from "../assets/images/repositories/devto.png";
 import url_shortner from "../assets/images/repositories/url_shortner.png";
+import code_runner from "../assets/images/repositories/code_runner.jpeg";
 import rick_and_morty from "../assets/images/repositories/rick_and_morty.png";
 import placeholder_image from "../assets/images/repositories/placeholder_image.png";
 
@@ -19,6 +20,17 @@ export const repositories = [
     cover: url_shortner,
     technologies: ["node", "next","zookeeper","mongodb","typescript"],
     url: "https://github.com/aistiak/scaleable-url-shortner",
+    // live: "https://ma-ahmad.github.io/portfolio",
+    blurHash: "L25#he^nryxc^-w$V{V_56bqx[M{",
+    // stars: "65",
+    // fork: "12"
+  },
+  {
+    title: "Code Runner",
+    description: "A Simple code runner ",
+    cover: code_runner,
+    technologies: ["node", "docker","react","typescript"],
+    url: "https://github.com/aistiak/code-runner/",
     // live: "https://ma-ahmad.github.io/portfolio",
     blurHash: "L25#he^nryxc^-w$V{V_56bqx[M{",
     // stars: "65",

@@ -13,6 +13,8 @@ import typescript from "assets/images/skills/typescript.png";
 import html5 from "assets/images/skills/html-5.png";
 import css3 from "assets/images/skills/css3.png";
 import python from "assets/images/skills/python.png";
+import nodejs from "assets/images/skills/nodejs.png";
+import expressjs from "assets/images/skills/expressjs.png";
 import bootstrap from "assets/images/skills/bootstrap.png";
 import postgres from "assets/images/skills/postgresql.png";
 import redis from "assets/images/skills/redis.png";
@@ -241,7 +243,7 @@ export const skills = [
     description : 'Runtime environemnt',
     link : 'https://nodejs.org',
     type :"language",
-    image : tool
+    image : nodejs
   },
   {
     name : 'JavaScript',
@@ -265,6 +267,14 @@ export const skills = [
     link : 'https://nodejs.org',
     type :"language",
     image : python 
+
+  },
+  {
+    name : 'express.js',
+    description : 'Framework',
+    link : 'https://nodejs.org',
+    type :"language",
+    image : expressjs 
 
   },
   {
