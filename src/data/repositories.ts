@@ -9,7 +9,7 @@ import imgGallery from "../assets/images/repositories/image_gallery.png";
 import notebook from "../assets/images/repositories/notebook_app.png";
 import devto from "../assets/images/repositories/devto.png";
 import url_shortner from "../assets/images/repositories/url_shortner.png";
-import code_runner from "../assets/images/repositories/code_runner.jpeg";
+import code_runner from "../assets/images/repositories/code_runner.png";
 import rick_and_morty from "../assets/images/repositories/rick_and_morty.png";
 import placeholder_image from "../assets/images/repositories/placeholder_image.png";
 
