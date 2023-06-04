@@ -22,7 +22,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
 import { ColorModeSwitcher } from "ColorModeSwitcher";
-import UserIcon from "assets/images/user_icon.png";
+import UserIcon from "assets/images/me.png";
 import { AiTwotoneThunderbolt } from "react-icons/ai";
 import { BiChevronDown } from "react-icons/bi";
 import { BsCheckCircle } from "react-icons/bs";

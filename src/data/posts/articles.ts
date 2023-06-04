@@ -2,6 +2,21 @@ import { images } from "./notebook-app/images";
 
 export const articles = [
   {
+    title: "Building a simple code Runner with typescript , docker , react and express",
+    // desc:
+      // "Different portfolio templates to show your skills, experience, articles etc",
+    tags: ["node", "react", "docker"],
+    // github_url: "https://github.com/MA-Ahmad/portfolio-template1",
+    link:
+      "https://istiak43.hashnode.dev/building-a-simple-code-runner-with-typescript-docker-react-and-express",
+    external: true,
+    // isNew: true,
+    // live: "https://ma-ahmad.github.io/portfolio-template1",
+    published: "23 May 2023",
+    readTime: "7 min read",
+    // views: "721"
+  },
+  {
     title: "How to use different environment variables for development and production in Node.js",
     // desc:
       // "Different portfolio templates to show your skills, experience, articles etc",
