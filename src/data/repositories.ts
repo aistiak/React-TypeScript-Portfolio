@@ -9,11 +9,35 @@ import imgGallery from "../assets/images/repositories/image_gallery.png";
 import notebook from "../assets/images/repositories/notebook_app.png";
 import devto from "../assets/images/repositories/devto.png";
 import url_shortner from "../assets/images/repositories/url_shortner.png";
+import markopolo from "../assets/images/repositories/markopolo.png";
+import muktopaath from "../assets/images/repositories/muktopaath.png";
 import code_runner from "../assets/images/repositories/code_runner.png";
 import rick_and_morty from "../assets/images/repositories/rick_and_morty.png";
 import placeholder_image from "../assets/images/repositories/placeholder_image.png";
 
 export const repositories = [
+  {
+    title: "Markopolo.ai",
+    description: "A SAAS marteking tool",
+    cover: markopolo,
+    technologies: ["node","aws","next.js","gcp"],
+    url: "https://markopolo.ai/",
+    // live: "https://ma-ahmad.github.io/portfolio",
+    blurHash: "L25#he^nryxc^-w$V{V_56bqx[M{",
+    // stars: "65",
+    // fork: "12"
+  },
+  {
+    title: "Muktopaath",
+    description: "An E-learning platform",
+    cover: muktopaath,
+    technologies: ["node","php","nysql","vue.js"],
+    url: "https://muktopaath.gov.bd/",
+    // live: "https://ma-ahmad.github.io/portfolio",
+    blurHash: "L25#he^nryxc^-w$V{V_56bqx[M{",
+    // stars: "65",
+    // fork: "12"
+  },
   {
     title: "Scaleable URL Shortner",
     description: "A Scaleable url shortnet with node",

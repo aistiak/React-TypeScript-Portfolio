@@ -2,6 +2,36 @@ import { images } from "./notebook-app/images";
 
 export const articles = [
   {
+    title: "Designing a Scaleable Url Shortner",
+    // desc:
+      // "Different portfolio templates to show your skills, experience, articles etc",
+    tags: ["node", "apache-zookeeper", "distributed","scaleable"],
+    // github_url: "https://github.com/MA-Ahmad/portfolio-template1",
+    link:
+      "https://istiak43.hashnode.dev/designing-a-scaleable-url-shortener",
+    external: true,
+    // isNew: true,
+    // live: "https://ma-ahmad.github.io/portfolio-template1",
+    published: "20 July 2023",
+    readTime: "4 min read",
+    // views: "721"
+  },
+  {
+    title: "Introduction to Apache Zookeeper",
+    // desc:
+      // "Different portfolio templates to show your skills, experience, articles etc",
+    tags: ["apache-zookeeper"],
+    // github_url: "https://github.com/MA-Ahmad/portfolio-template1",
+    link:
+      "https://istiak43.hashnode.dev/introduction-to-apache-zookeeper",
+    external: true,
+    // isNew: true,
+    // live: "https://ma-ahmad.github.io/portfolio-template1",
+    published: "16 June 2023",
+    readTime: "4 min read",
+    // views: "721"
+  },
+  {
     title: "Building a simple code Runner with typescript , docker , react and express",
     // desc:
       // "Different portfolio templates to show your skills, experience, articles etc",

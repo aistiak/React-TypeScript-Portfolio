@@ -75,8 +75,7 @@ const RepositoriesList = () => {
           color={useColorModeValue("gray.500", "gray.200")}
           textAlign="left"
         >
-          This page lists some of the open source repositories I have published
-          or contributed to.
+          This page lists some of the projects that I have done or cotributed to.
         </Text>
       </VStack>
       {/* {activeTab === "live" ? <LiveData /> : <OfflineData />} */}

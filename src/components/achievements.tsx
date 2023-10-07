@@ -66,7 +66,7 @@ const Achievements = () => {
               Published or contributed to{" "}
               <InternalLink
                 color={"blue.200"}
-                url="/open-source"
+                url="/projects"
                 text={"9 open-source repositories"}
               />
             </TimelineItem>

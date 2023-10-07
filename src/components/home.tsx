@@ -143,8 +143,8 @@ const Home = () => {
                 </Link>
               </ListItem>
               <ListItem>
-                <Link as={NavLink} to="/open-source">
-                  Open Source
+                <Link as={NavLink} to="/projects">
+                  Projects
                 </Link>
               </ListItem>
               <ListItem>

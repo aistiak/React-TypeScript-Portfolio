@@ -36,7 +36,7 @@ const webLinks = [
 
 const mobileLinks = [
   { name: "About", path: "/about" },
-  { name: "Open Source", path: "/open-source" },
+  { name: "Projects", path: "/projects" },
   { name: "Blog", path: "/blog" },
   { name: "Tech Stack", path: "/tech-stack" },
   // { name: "Developer Story", path: "/story-timeline" }
@@ -151,7 +151,7 @@ export default function TopNav() {
                       </HStack>
                     </MenuItem>
                   </Link>
-                  <Link as={RouterNavLink} to="/open-source">
+                  <Link as={RouterNavLink} to="/projects">
                     <MenuItem>
                       <HStack>
                         <Icon

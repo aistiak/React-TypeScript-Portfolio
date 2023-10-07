@@ -26,9 +26,9 @@ const routes = [
     component: NotebookPost
   },
   {
-    path: "/open-source",
+    path: "/projects",
     exact: true,
-    name: "OpenSource",
+    name: "Projects",
     component: RepositoriesList
   },
   { path: "/blog", exact: true, name: "Blog", component: Posts },
