@@ -159,7 +159,7 @@ export default function TopNav() {
                           size={18}
                           color={useColorModeValue("blue.500", "blue.200")}
                         />
-                        <Text>Open Source</Text>
+                        <Text>Projects</Text>
                       </HStack>
                     </MenuItem>
                   </Link>

@@ -44,7 +44,7 @@ const RepositoriesList = () => {
       <VStack align="start" spacing={3}>
         <HStack justifyContent={"space-between"} width={"100%"}>
           <Header underlineColor={TURQUOISE} mt={0} mb={0}>
-            Open Source
+            Projects
           </Header>
           {/* <HStack>
           <Tooltip hasArrow label="Live github repos" placement="top">
